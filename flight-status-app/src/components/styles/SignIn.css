@@ -1,0 +1,63 @@
+/* SignIn.css */
+
+.signin-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-image: url('https://img.freepik.com/premium-photo/beautiful-blue-sky-white-cumulus-clouds-abstract-background-cloudscape-background-blue-sky_33867-2314.jpg');
+    padding: 20px;
+}
+
+.signin-page h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.signin-page label {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.signin-page input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.signin-page input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.signin-page button {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.signin-page button:hover {
+    background-color: #0056b3;
+}
+
+.signin-page button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.signin-page p {
+    margin-top: 10px;
+    font-size: 14px;
+}

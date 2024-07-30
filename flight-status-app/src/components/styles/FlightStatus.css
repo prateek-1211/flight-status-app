@@ -1,0 +1,71 @@
+.flight-status-container {
+    /* background-color: rgb(120, 120, 244); */
+    background-image: url('https://www.shutterstock.com/image-vector/aircraft-indigo-top-43-worlds-260nw-2409366057.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+  }
+  
+  .flight-status-container h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .flight-status-container input {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+  }
+  
+  .flight-status-container button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .flight-status-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .flight-status-container p {
+    margin: 0.5rem 0;
+  }
+  
+  .flight-status-container .error {
+    color: red;
+    margin-top: 1rem;
+  }
+  
+  .flight-info {
+    margin-top: 2rem;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    width: 300px;
+    text-align: left;
+  }
+  
+  .flight-info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .flight-info p {
+    margin: 0.5rem 0;
+  }
+  
+  .flight-info .cancelled {
+    color: red;
+  }
+  
+  .flight-info .delayed {
+    color: orange;
+  }
+  
